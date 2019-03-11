@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="media/video.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la vidéo par HTML5.
+</video>
+
+<div class="content">
+  
+  <p><h1 align="left"><u>L’exploitation des salars en bolivie:</u><br><br> <h2 align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     Le lithium, atome omniprésent dans le domaine du stockage de l’électricité, justifie-il la destruction du patrimoine naturel bolivien?<br>-------------------------------------------------<br>
+</h3> <h2 align="center"><br> <button onclick="document.getElementById('id02').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-grey">Cliquez ici pour plonger dans la controverse...</button></a></p></h2>
+<h2 align="center"><br> <button onclick="document.getElementById('id03').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hower-grey">Cliquez ici pour afficher les crédits</button></h2></div>
+
+</body>
+
+
+
+<div id="id02" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-grey w3-display-container"> 
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-grey w3-display-topright"></span>
+          <h3 align="center">MENU PRINCIPAL</h3>
+      </header>
+      <h4>
+        <div align="center"><i>Guidez vous dans la controverse avec ce menu...</i><br><br></div>
+        &nbsp;&nbsp;<a href="doc1.html">>I. Contexte & Introduction...</a><br><br>
+        &nbsp;&nbsp;<a href="doc2.html">>II.. En quoi est-ce une controverse...</a><br><br>
+        &nbsp;&nbsp;<a href="doc3.html">>III... Enjeux...</a><br><br>
+        &nbsp;&nbsp;<a href="doc4.html">>IV.... Acteurs & Catrographie...</a><br><br>
+        &nbsp;&nbsp;<a href="doc5.html">>V..... Dates clés...</a><br><br>
+        &nbsp;&nbsp;<a href="doc6.html">>VI...... Sources & Notes...</a><br><br>
+    &nbsp;&nbsp;<a href="Untitled-1.html">><i>Retour à l'écran d'accueil...</a></i></h4>
+
+      <footer class="w3-container w3-grey w3-display-container"><BR><h7><i>Controlithium.com,  © Avesta Molaei 2018-2019 Tous droits réservés<BR>ESIEE Paris, MSH-110x, Analyse de Controverses<p></p>
+
+      </i></h7></footer>
+    </div>
+  </div>
+
+
+  <div id="id03" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-grey w3-display-container"> 
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-grey w3-display-topright"></span>
+        <h3 align="center">CREDITS</h3>
+
+      </header>
+      <div class="w3-container"><br>
+          <h5><img src = "media/logo.png"></h5>
+          <p>ESIEE Paris, l'école de l'innovation technologique... Et des controverses!</p>
+        <p>Première année du premier cycle - Groupe c8 - Classe 12c</p><br>
+        
+      </div>
+      &nbsp;&nbsp;<a href="Untitled-1.html">><i>Retour à l'écran d'accueil...</a></i></h4>
+      <br>
+      <footer class="w3-container w3-grey w3-display-container"><BR><h7><i>Controlithium.com,  © Avesta Molaei 2018-2019 Tous droits réservés<BR>ESIEE Paris, MSH-110x, Analyse de Controverses<p></p>
+
+      </i></h7></footer>
+      </footer>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script>
+    // Script for side navigation
+    function w3_open() {
+      var x = document.getElementById("mySidebar");
+      x.style.width = "300px";
+      x.style.paddingTop = "10%";
+      x.style.display = "block";
+    }
+    // Close side navigation
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    // Used to toggle the menu on smaller screens when clicking on the menu button
+    function openNav() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    </script>
+
+
+</html>
