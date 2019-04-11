@@ -1,5 +1,5 @@
 
-mark/*propriétés générales des balises <mark> (liens répétés en page1*/{
+mark{
 	opacity: 0.5;
     background-color: grey;
 	border: 5px black;
@@ -10,8 +10,7 @@ mark/*propriétés générales des balises <mark> (liens répétés en page1*/{
 body {
   margin: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 17px;
-  font-family: 'Courier New', Courier, monospace;
+  
 }
 
 #myVideo {
